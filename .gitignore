@@ -1,0 +1,75 @@
+# Virtual environment
+/bin/
+!/chroma/bin/
+include/
+lib/
+lib64/
+share/
+node_modules/
+count.txt
+profiles/
+firefox/
+chromium/
+settings.json
+
+screenshot.png
+logFile.txt
+**/test.json
+response.json
+response_json.json
+response_images.json
+nohup.out
+uploads
+
+# Compiled python files
+*.pyc
+__pycache__/
+
+# Virtual environment configuration
+pyvenv.cfg
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Python distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Log files
+*.log
+
+# Neo4j data files
+neo4j/
+
+# Temporary files
+*.tmp
+
+# Env file
+.env
+# Env file for local development
+.env.local
+# Env file for production development
+.env.production
+# Env file for API
+api.env
+# Nebula graph logs
+logs
+/logs
+logs/
+data/meta0
+data/storage0
+
+# Redis specific
+users.acl
+
+# Docker volumes
+persistence/*
+!persistence/.gitignore
+
+users.acl

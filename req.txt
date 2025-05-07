@@ -1,0 +1,5 @@
+duckduckgo_search
+fastapi
+uvicorn
+python-multipart
+fastapi-cors
