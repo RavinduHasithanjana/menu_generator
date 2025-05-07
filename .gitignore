@@ -51,7 +51,7 @@ neo4j/
 *.tmp
 
 # Env file
-# .env
+ .env
 # Env file for local development
 .env.local
 # Env file for production development
